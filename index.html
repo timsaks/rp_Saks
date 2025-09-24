@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis of Monoterpene Fragrances' Effects on Staphyloccocus epidermidis</title>
+    
+    <!-- Importing necessary Bootstrap libraries-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+                rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+                crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+                crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <div class="container-lg">
+
+        <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+                <!-- lg = large breakpoint, navbar-dark = makes the text light-->
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                      <img src="img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                    </a>
+
+                    <!-- Hamburger Menu Button-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapsible navbar menu with custom hover underline CSS animation-->
+                    <div class="collapse navbar-collapse" id="navmenu">    
+                        <!-- Links to hamburger menu button-->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+        <!--Showcase -->
+        <section class="showcase text-light p-2 text-center">
+            <!-- p-2 = padding-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 p-0 d-flex align-items-center">
+                        <img class="img-fluid" src="img/img-5509.jpg" alt="Shark River">
+                        <!-- img-fluid = won't expand the image larger than the container and 
+                         will scale the img down if the browser window is narrowed-->
+                    </div>
+                    <div class="col-sm-6 p-0 d-flex align-items-center">
+                        <div class="container">
+                            <h1 class="display-4">Water Temperature Near Avon, NJ (2021-2022)</h1>
+                            <h2>Building a site with Boostrap 5 Demo</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview -->
+        <section class="overview text-dark p-2 text-left">
+            <div class="container">
+                <div class="row"> <!-- Row 1-->
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="img/19418.jpeg" alt="Water Temperature Graph">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Background</h1>
+                        <p class="lead overview-font ovPadLeft" id="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <div class="row"> <!-- Row 2-->
+                    <div class="col-sm-8 p-3">
+                        <h1>Rationale</h1>
+                        <p class="lead overview-font ovPadRight" id="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="img/watermap.jpg" alt="Water Map">
+                    </div>
+                </div>
+
+                <div class="row"> <!-- Row 1-->
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="img/phytoplankton-pnas.jpg" alt="Phytoplankton">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Research Practicum</h1>
+                        <p class="lead overview-font ovPadLeft" id="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer (requires a Boostrap icon) -->
+         <footer class="p-5 footer text-light text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; SE 2025 Bootstrap Demo</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+                </a>
+            </div>
+
+         </footer>
+
+    </div>
+</body>
+</html>
