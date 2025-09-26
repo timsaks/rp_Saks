@@ -15,10 +15,11 @@
 
 .body{
     background-color: #82acff;
+    font-family: 'Alan Sans', sans-serif
 }
 
 .footer{
-    background-color: #8f71ff;
+    background-color: #a5bdfd;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -81,4 +82,19 @@
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
+}
+
+.navbar-brand {
+    width: 10%;
+}
+
+.showcase-image {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
 }

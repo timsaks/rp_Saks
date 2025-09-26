@@ -14,16 +14,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
                 integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
                 crossorigin="anonymous"></script>
+    <!-- Importing Google Font Alan Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <div class="container-lg">
 
         <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+            <nav class="navbar navbar-expand-lg navbar-light nb-background-color">
                 <!-- lg = large breakpoint, navbar-dark = makes the text light-->
                 <div class="container">
                     <a href="index.html" class="navbar-brand">
-                      <img src="img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                      <img src="img/limonene-logo.png" alt="Limonene Logo" class="d-inline-block align-text-top w-50 rotate">
                     </a>
 
                     <!-- Hamburger Menu Button-->
@@ -55,7 +59,7 @@
                 <br>
                 <div class="text-center">
                     <h1>Procedure</h1>
-                    <h2>Using a numbered list, desribe your procedure (include pictures)</h2>
+                    <h2>A detailed description of the experimental procedure</h2>
 
                 </div>
 
@@ -73,37 +77,51 @@
                             <th scope="row" class="table-secondary">
                                 <h3>1</h3>
                             </th> <!-- scope="row" specifies a row header cell-->
-                            <td><h3 class="howTo">Start Python Flask Server</h3></td>
+                            <td><h3 class="howTo">Prepare LB Broth Agar Plates</h3></td>
                             <td class="text-center"><img src="img/python-logo.png" alt="Python Logo"></td>
                         </tr> <!-- End 1st Row-->
                         <tr class="align-middle"> <!-- 2nd row-->
                             <th scope="row" class="table-secondary">
                                 <h3>2</h3>
                             </th> <!-- scope="row" specifies a row header cell-->
-                            <td><h3 class="howTo">Power circuit on. SR-04/05 transmits data to NANO IOT</h3></td>
+                            <td><h3 class="howTo">Create different concentrations of the monoterpene fragrances</h3></td>
                             <td class="text-center"><img src="img/range-finder-tp.png" alt="SR-04 Range Finder"></td>
                         </tr> <!-- End 2nd Row-->
                         <tr class="align-middle"> <!-- 3rd row-->
                             <th scope="row" class="table-secondary">
                                 <h3>3</h3>
                             </th> <!-- scope="row" specifies a row header cell-->
-                            <td><h3 class="howTo">Nano IoT connects to PC via Wi-Fi and sends data to Arduino</h3></td>
+                            <td><h3 class="howTo">Culture S. epidermidis using a shaking water bath</h3></td>
                             <td class="text-center"><img src="img/nano33-iot3.png" alt="Nano 33 IoT"></td>
                         </tr> <!-- End 3rd Row-->
                         <tr class="align-middle"> <!-- 4th row-->
                             <th scope="row" class="table-secondary">
                                 <h3>4</h3>
                             </th> <!-- scope="row" specifies a row header cell-->
-                            <td><h3 class="howTo">Arduino and Flask server communicate via HTTP request protocol.</h3></td>
+                            <td><h3 class="howTo">Spread S. epidermidis culture on agar plates using an L-spreader</h3></td>
                             <td class="text-center"><img src="img/arduino-logo.png" alt="Arduino Logo"></td>
                         </tr> <!-- End 4th Row-->
                         <tr class="align-middle"> <!-- 5th row-->
                             <th scope="row" class="table-secondary">
                                 <h3>5</h3>
                             </th> <!-- scope="row" specifies a row header cell-->
-                            <td><h3 class="howTo">Flask connects to Firebase and sends data for storage</h3></td>
+                            <td><h3 class="howTo">Apply filter discs soaked in monoterpene solutions to the agar plates</h3></td>
                             <td class="text-center"><img src="img/firebase-logo.png" alt="Firebase Logo"></td>
                         </tr> <!-- End 5th Row-->
+                        <tr class="align-middle"> <!-- 6th row-->
+                            <th scope="row" class="table-secondary">
+                                <h3>6</h3>
+                            </th> <!-- scope="row" specifies a row header cell-->
+                            <td><h3 class="howTo">Place plates in the incubator for 24 hours</h3></td>
+                            <td class="text-center"><img src="img/firebase-logo.png" alt="Firebase Logo"></td>
+                        </tr> <!-- End 6th Row-->
+                        <tr class="align-middle"> <!-- 7th row-->
+                            <th scope="row" class="table-secondary">
+                                <h3>7</h3>
+                            </th> <!-- scope="row" specifies a row header cell-->
+                            <td><h3 class="howTo">Measure the zones of inhibition using a dial caliper</h3></td>
+                            <td class="text-center"><img src="img/firebase-logo.png" alt="Firebase Logo"></td>
+                        </tr> <!-- End 7th Row-->
                     </tbody>
                 </table>
             </div>
