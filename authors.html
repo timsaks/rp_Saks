@@ -61,10 +61,10 @@
                 <h1 class="text-center about-team">About the Team</h1>
                 <hr><br> <!-- Horizontal Line-->
 
-                <!-- Card organized in 2 x 2 table format-->
-                 <div class="row row-cols-1 row-cols-md-2 g-4 d-flex">
+                <!-- Card organized in 2 x 2 table format; cards are flex objects to ensure they don't overlap on smaller screens-->
+                 <div class="row row-cols-1 row-cols-md-2 g-4 card-group d-flex">
                     <div class="col">
-                       <div class="card about">
+                        <div class="card about h-100">
                             <img src="img/selfie.jpg" class="card-img-top" alt="An image of Timothey Saks">
                             <div class="card-body">
                                 <h4 class="card-title">Timothey Saks</h4>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="col">
-                       <div class="card about">
+                       <div class="card about h-100">
                             <img src="img/man1.png" class="card-img-top" alt="A placeholder image for Craig Queenan">
                             <div class="card-body">
                                 <h4 class="card-title">Craig Queenan</h4>
@@ -84,29 +84,6 @@
                        </div>
 
                     </div>
-                    <!--
-                    <div class="col">
-                       <div class="card about">
-                            <img src="img/woman2.jpg" class="card-img-top" alt="Name 3">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made to the project</p>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="col">
-                       <div class="card about">
-                            <img src="img/man2.jpg" class="card-img-top" alt="Name 4">
-                            <div class="card-body">
-                                <h4 class="card-title">Student Name</h4>
-                                <h5>Class: BME</h5>
-                                <p class="card-text">Describe (in detail) the contributions that this team member made to the project</p>
-                            </div> 
-                       </div>
-
-                    </div>
-                -->
                 </div>
                 <br>
             </div>
@@ -115,7 +92,7 @@
         <!-- Footer (requires a Bootstrap icon) -->
          <footer class="p-5 footer text-dark text-center position-relative">
             <div class="container">
-                <p class="lead">Copyright &copy; SE 2025 Bootstrap Demo</p>
+                <p class="lead">Copyright &copy; SE 2025 Research Practicum Website</p>
                 <a href="#" class="position-absolute bottom-0 end-0 p-5">
                     <i class="bi bi-arrow-up-circle h2 icon-black"></i>
                 </a>
