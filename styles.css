@@ -10,7 +10,7 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #fcfafa;
 }
 
 .body{
@@ -49,7 +49,7 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #fcfafa;
     padding: 1px;
 }
 
@@ -90,11 +90,38 @@
 
 .showcase-image {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .rotate:hover {
     transform: rotate(360deg);
     transition: transform 0.5s;
+}
+
+.horizontally-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertically-centered {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.procedure-image {
+    width: 200px;
+    height: auto;
+}
+
+.rationale-image {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rp-image {
+    width: 70%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: auto;
 }
