@@ -52,6 +52,10 @@
     background-color: #fcfafa;
     padding: 1px;
 }
+.results {
+   background-color: #fcfafa;
+   padding: 1px; 
+}
 
 .showcase{
     background-color: #4f81c7; /*#0096c7*/
@@ -125,4 +129,8 @@
     margin-left: 50px;
     margin-right: auto;
     flex-shrink: 0;
+}
+
+.chart {
+    height: 400px;
 }
