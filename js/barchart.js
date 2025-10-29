@@ -1,7 +1,7 @@
 async function getData(url) {
     const response = await fetch(url);
     const data = await response.text();
-    console.log(data);
+    //console.log(data);
 
     const xConcentrations = [];   // x-axis label = concentrations
     const yAvgZones = [];   // y-axis = raw data for ZOI values
@@ -11,7 +11,7 @@ async function getData(url) {
     // slice(start, end) - return a new array starting at index "start" and ending at index "end - 1
     
     const table = data.split('\n').slice(1); // Split by line and remove first row
-    console.log(table);
+    //console.log(table);
 
     table.forEach(row => {
         const columns = row.split(',');
