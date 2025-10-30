@@ -98,6 +98,6 @@ async function createChart(url, id, r, g, b) {
     });
 }
 
-createChart('../data/limonene.csv', 'Limonene', 255, 255, 0);
-createChart('../data/linalool.csv', 'Linalool', 255, 0, 255);
-createChart('../data/geraniol.csv', 'Geraniol', 0, 255, 0);
+createChart('data/limonene.csv', 'Limonene', 255, 255, 0);
+createChart('data/linalool.csv', 'Linalool', 255, 0, 255);
+createChart('data/geraniol.csv', 'Geraniol', 0, 255, 0);
